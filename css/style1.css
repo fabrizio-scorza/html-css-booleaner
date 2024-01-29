@@ -55,3 +55,16 @@ mark{
     background-color: yellow;
     color:black;
 }
+.cell{
+    width: 150px;
+}
+.third-cell{
+    width: 800px;
+}
+#table-top{
+    background-color:rgb(84, 201, 255) ;
+    color:white;
+}
+.odd{
+    background-color: rgb(194, 232, 250);
+}
