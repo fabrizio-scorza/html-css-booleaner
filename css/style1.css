@@ -1,5 +1,12 @@
 body{
     margin: 0;
+    
+}
+.section{
+    margin-left: 100px;
+}
+ul{
+   padding-left: 15px;
 }
 /* intestazione e logo */
 #pagetop{
@@ -14,9 +21,6 @@ body{
     margin-left: 100px;
 }
 /* main sezione titolo e figure */
-.title-section{
-    margin-left: 100px;
-}
 #page-title{
     margin-bottom: 0;
     font-size:xx-large;
@@ -42,4 +46,12 @@ body{
 .fig{
 font-size: small;
 font-weight: 100;
+}
+/* main sezione paragrafo lista e tabelle */
+.text{
+    font-weight: 600;
+}
+mark{
+    background-color: yellow;
+    color:black;
 }
