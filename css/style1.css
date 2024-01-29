@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+#pagetop{
+    background-color:rgb(101, 135, 236);
+    background-image:url(../img/pattern.png);
+    background-size:400px;
+    height: 130px;
+    }
+#logo{
+    width: 230px;
+    margin-top:60px;
+    margin-left: 150px;
+}
