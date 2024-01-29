@@ -1,6 +1,7 @@
 body{
     margin: 0;
 }
+/* intestazione e logo */
 #pagetop{
     background-color:rgb(101, 135, 236);
     background-image:url(../img/pattern.png);
@@ -9,6 +10,36 @@ body{
     }
 #logo{
     width: 230px;
-    margin-top:60px;
-    margin-left: 150px;
+    margin-top:68px;
+    margin-left: 100px;
+}
+/* main sezione titolo e figure */
+.title-section{
+    margin-left: 100px;
+}
+#page-title{
+    margin-bottom: 0;
+    font-size:xx-large;
+}
+#page-subtitle{
+    margin-top:0;
+    margin-bottom: 0;
+    font-size:large;
+    font-weight: 100;
+    color: gray;
+}
+#page-name{
+    color:rgb(101, 135, 236);
+}
+#page-date{
+    margin-top: 0;
+    font-weight: 100;
+    color: grey;
+}
+#page-figure{
+    margin-left: 0;
+}
+.fig{
+font-size: small;
+font-weight: 100;
 }
