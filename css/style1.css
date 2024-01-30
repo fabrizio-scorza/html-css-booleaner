@@ -9,38 +9,37 @@ ul{
    padding-left: 15px;
 }
 /* intestazione e logo */
-#pagetop{
+header{
     background-color:rgb(101, 135, 236);
     background-image:url(../img/pattern.png);
     background-size:400px;
     height: 130px;
     }
-#logo{
+.setting-logo{
     width: 230px;
     margin-top:68px;
     margin-left: 100px;
 }
 /* main sezione titolo e figure */
-#page-title{
+h1{
     margin-bottom: 0;
     font-size:xx-large;
 }
-#page-subtitle{
-    margin-top:0;
+.setting-subtitle{
     margin-bottom: 0;
     font-size:large;
+}
+.mt0-w100{
+    margin-top:0;
     font-weight: 100;
+}
+.col-gray{
     color: gray;
 }
 #page-name{
     color:rgb(101, 135, 236);
 }
-#page-date{
-    margin-top: 0;
-    font-weight: 100;
-    color: grey;
-}
-#page-figure{
+figure{
     margin-left: 0;
 }
 .fig{
@@ -55,13 +54,10 @@ mark{
     background-color: yellow;
     color:black;
 }
-.cell{
-    width: 150px;
-}
 .third-cell{
-    width: 800px;
+    width: 50%;
 }
-#table-top{
+.table-top{
     background-color:rgb(84, 201, 255) ;
     color:white;
 }
@@ -71,17 +67,14 @@ mark{
 /* aside sezione immagini articoli simili */
 #advice{
     margin-top: 50px;
-    color:gray;
 }
 #art1{
     background-image: url(../img/monitor.jpg);
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 200px;
-    color:white;
 }
 #art2{
     background-image: url(../img/graph.jpg);
+}
+.setting-art{
     background-repeat: no-repeat;
     width: 300px;
     height: 200px;
